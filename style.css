@@ -1,0 +1,126 @@
+#logo img{
+    display: block;
+    margin: auto;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    float:left;
+    margin-right: 20px;
+    margin-top: -120px;
+}
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   background: url('images/download.jpg');
+   max-width: 5000px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-container{
+    background: burlywood;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.receipt-container{
+    background: burlywood;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+h1{
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: beige;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover{
+    background-color: burlywood;
+}
+
+.receipt-header{
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.receipt-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.receipt-details{
+    margin: 22px 0;
+}
+
+.receipt-amount{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+.receipt-footer{
+    margin-top: 30px;
+    border-top: 1px dashed #333;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.signature{
+    margin-top: 40px;
+}
+
+.print-btn{
+    background-color: beige;
+    margin-top: 10px;
+}
+
+.print-btn:hover{
+    background-color: burlywood;
+}
+
+.receiptShopfooter{
+   font-family: cursive;
+}
